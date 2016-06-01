@@ -38,7 +38,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // });
 
 // Routes to return JSON data to front end
-app.use('/api/recipes', require('./controllers/recipes'));
+app.use('/api/links', require('./controllers/links'));
 app.use('/api/users', require('./controllers/users'));
 
 // AUTH STUFF ////
