@@ -1,5 +1,5 @@
 var express = require('express');
-var Recipe = require('../models/link');
+var Link = require('../models/link');
 var router = express.Router();
 
 router.route('/')

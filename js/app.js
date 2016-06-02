@@ -10,15 +10,15 @@ angular.module('hackathonApp', ['appCtrls','ui.router'])
     url: '/',
     templateUrl: 'app/views/.ejs'
   })
-  .state('', {
+  .state('home', {
     url: '/route',
-    templateUrl: 'app/views/.ejs'
+    templateUrl: 'app/views/home.html'
   })
   .state('login', {
     url: '/route',
     templateUrl: 'app/views/.ejs'
   })
-  .state('cookbook', {
+  .state('', {
     url: '/route',
     templateUrl: 'app/views/.ejs'
   })
