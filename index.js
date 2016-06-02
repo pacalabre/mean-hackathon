@@ -15,9 +15,9 @@ var app = express();
 
 // MONGO STUFF ////
 ///////////////////
-// var mongoose = require('mongoose');
+var mongoose = require('mongoose');
 // var User = require('./models/user');
-// mongoose.connect('mongodb://localhost/recipes');
+mongoose.connect('mongodb://localhost/mean-hackathon');
 
 // MIDDLEWARE /////
 // For jsons, forms, and static paths
@@ -27,7 +27,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // AUTH STUFF ////
 //////////////////
-// app.use('/api/recipes', expressJWT({secret: secret}));
+// app.use('/api/links', expressJWT({secret: secret}));
 // app.use('/api/users', expressJWT({secret: secret})
 // .unless({path: ['/api/users'], method: 'post'}));
 
