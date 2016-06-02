@@ -1,0 +1,32 @@
+.navbar {
+	margin-bottom: 0px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	color: #fff;
+  background-color: #d9534f;
+}
+#hero-unit {
+	background: url('header.jpeg');
+	background-position: center; 
+	height: 567px;
+}
+.layer {
+	background-color: rgba(0, 0, 0, 0.3);
+  height: 567px;
+}
+.header-title {
+	padding-top: 70px;
+	color: #fff;
+	font-size: 60px;
+	font-weight: 300;
+	text-align:	center;
+}
+.header-description {
+	color: #fff;
+	font-size: 25px;
+	font-weight: 300;
+	text-align:	center;
+}
+.header-btn {
+	text-align: center;
+}

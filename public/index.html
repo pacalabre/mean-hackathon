@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html ng-app="hackathonApp">
+<head>
+	<title>Airplane!</title>
+	<!-- Latest compiled and minified CSS & JS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular-resource.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.js"></script>
+  <script src="app/app.js"></script>
+  <script src="app/controllers.js"></script>
+  <script src="app/services.js"></script>
+
+  <base href="/">
+</head>
+<body>
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><span class="glyphicon glyphicon-flash"></span> encr.pw</a>
+			</div>
+	
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Login</a></li>
+					<li><a href="#">Register</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div>
+	</nav>
+
+	<header id="hero-unit">
+		<div class="layer">
+			<div class="header-title"><p><i class="fa fa-suitcase" aria-hidden="true"></i><br>SHORTEN. SHARE. MEASURE.</p></div><br>
+			<div class="header-description"><p>Join encr.pw, the world's leading link management platform.</p></div><br>
+			<div class="header-btn">
+				<form class="form-inline">
+				  <div class="form-group">
+				    <input type="text" class="form-control input-lg" placeholder="http://example.com">
+				  </div>
+				  <button type="submit" class="btn btn-danger btn-lg">Shorten</button>
+				</form>
+
+			</div>
+		</div>
+	</header>
+</body>
+</html>
